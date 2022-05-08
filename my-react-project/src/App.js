@@ -4,8 +4,10 @@ import DataGridTable from './components/DataGridTable';
 
 function App() {
   return (
-    <React.Fragment className="App">
-      <DataGridTable />
+    <React.Fragment >
+      <div className="App">
+        <DataGridTable />
+      </div>
     </React.Fragment>
   );
 }
